@@ -6,12 +6,13 @@ This tool is designed to process the daily AVC report from nbn™ and generate r
 * Held orders where the planned remediation date has passed.
 * Orders Completed in the past business day.
 * Orders Cancelled in the past business day.
+* Orders Rejected in the past business day.
 
 This was built in my own time to help retail service providers minimise delays in getting their customers connected to the nbn™.
 
 ## Requirements
-* PHP 5.6 (5.6.31) - It will probably work on other versions, this is a pretty basic tool.
-* Windows - This is solely because I use this on my PC and the use of the batch file)
+* PHP 5.6 (5.6.31) - It will probably work on other versions but hasn't been tested
+* Windows
 * SQLite
 
 ## License
